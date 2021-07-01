@@ -1,0 +1,35 @@
+#countries div {
+  /* border: 1px solid tomato; */
+  /* height: 200px; */
+  width: 200px;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background-color: aquamarine;
+  padding: 10px;
+}
+
+#countries {
+  /* border: 1px solid gold; */
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 10px;
+  padding: 100px;
+}
+#details {
+  width: 300px;
+  background-color: blanchedalmond;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 40px auto 0;
+  display: none;
+}
+
+#details img {
+  width: 100px;
+  display: block;
+  /* text-align: center; */
+  margin: 0 auto;
+}
